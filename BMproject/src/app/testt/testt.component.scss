@@ -1,67 +1,40 @@
-// .main-container {
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     gap: 20px; // Adjust the gap as needed
-//     width: 589.64px;
-//   }
+/* Main container for the amount section */
+.amount-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+  
 
-  .amount-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    // width: 100%; // Set the width as specified
-    width: 589.64px;
-    height: 56px;    // Set the height as specified
-    gap: 0px;
-    opacity: 1;     // Set opacity to 1 for visibility
-    border-bottom: 1px solid#E3E2E2;
-    // margin-left: 25%;
-
-  }
-  .amount-container ul {
+  .amount-list {
+    list-style: none;
+    padding: 0;
     display: flex;
     justify-content: space-between;
-    // align-content: center;
-    // margin: 0 30px 0 30px;
+    width: 560px;
+    opacity: 1;     // Set opacity to 1 for visibility
+    border-bottom: 1px solid#E3E2E2;
+    
+
+    .amount-item {
+      .amount-text {
+        font-family: Inter, sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: #24221e;
+      }
+    }
   }
-  
-  .amount-list {
-    display: flex;
-    // flex-direction: row;
-    // justify-content: flex-start;
-    // align-items: flex-start;
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-  }
-  
-  // .amount-item {
-  //   display: flex;
-  //   align-items: flex-start;
-  //   justify-content: space-between;
-  //   width: 50%;    // Adjust width as needed
-  //   height: 100%;
-  // }
-  
-  .amount-text {
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 56px; // Align text vertically
-    text-align: center;
-    color: #565552;
+}
 
 
-  }
   .inner-frame {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100%;
+    
   }
   
   .first-frame,
@@ -71,6 +44,8 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-top: 30px;
+
   }
   
   .first-frame {
@@ -103,6 +78,10 @@
     flex-direction: column;
     align-items: center;
     margin: 0 10px; // Spacing between SVG and text
+    background-color: rgba(128, 128, 128, 0.219);
+    border-radius: 5px;
+    height:142px;
+    justify-content: center;
   }
   .third-frame{
     display: flex;
@@ -146,6 +125,29 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 20px; // Space around the SVG separator
+    margin: 20px 20px; // Space around the SVG separator
   }
+.frame{
+  width: 560.75px;
+  position: relative;
+}
+.svg{
+  // width: 32px;
+  // height: 32px;
+  position: absolute;
+  top: 6px;
+  left: 8px;
+
   
+}
+.svglayout{
+  position: relative;
+  position: absolute;
+  top: 50px;
+  left: 130px;
+  width: 48px;
+  height: 48px;
+  // border: 1px solid;
+  border-radius: 50%;
+  background: rgba(128, 128, 128, 0.54);
+}

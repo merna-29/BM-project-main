@@ -1,0 +1,77 @@
+<!-- Parent Container to Center Frame Container -->
+<div class="parent-container">
+    <div class="frame-container">
+      <!-- Frame: Title and Description -->
+      <div class="frame">
+        <div class="title-container">
+          <span class="title-text">{{ titleText }}</span>
+        </div>
+        <div class="choice">
+            <span class="profile"><p>Profile</p></span> 
+            <P>Change Password</P>
+        </div>
+
+      </div>
+  
+      <!-- Form Frame: Email, Password Fields, Dropdown, and More Fields -->
+      <div class="form-frame">
+        <!-- Email Field -->
+        <div class="input-container">
+          <span class="input-label">{{ emailLabel }}</span>
+          <app-shared-input
+            type="text"
+            placeholder="Jonathon Smith "
+            width="501px"
+            backgroundColor="#871E35">
+          </app-shared-input>
+        </div>
+  
+        <!-- Password Field -->
+        <div class="input-container">
+          <span class="input-label">{{ passwordLabel }}</span>
+          <app-shared-input
+            type="email"
+            placeholder="UK"
+            width="501px"
+            backgroundColor="#871E35">
+          </app-shared-input>
+        </div>
+  
+
+        <!-- Three Input Text Fields Side by Side -->
+        <div class="three-inputs-row">
+          <div class="input-container">
+            <span class="input-label">Phone</span>
+            <app-shared-input
+              type="text"
+              placeholder="+880125412624"
+              width="300px"
+              backgroundColor="#F3E9EB">
+            </app-shared-input>
+          </div>
+          <div class="input-container">
+            <span class="input-label">Email</span>
+            <app-shared-input
+              type="text"
+              placeholder="jhonathonsmith@gmail.com"
+              width="300px"
+              backgroundColor="#F3E9EB">
+            </app-shared-input>
+          </div>
+
+        </div>
+  
+
+  
+        <!-- Login Button -->
+        <app-custom-button
+          text="Update Profile"
+          width="170px"
+          backgroundColor="#871E35">
+        </app-custom-button>
+  
+        
+      </div>
+    </div>
+  </div>
+  

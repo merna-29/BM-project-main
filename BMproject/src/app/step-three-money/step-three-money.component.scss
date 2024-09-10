@@ -1,0 +1,153 @@
+/* Main container for the amount section */
+.amount-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+    
+  
+    .amount-list {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      width: 560px;
+      opacity: 1;     // Set opacity to 1 for visibility
+      border-bottom: 1px solid#E3E2E2;
+      
+  
+      .amount-item {
+        .amount-text {
+          font-family: Inter, sans-serif;
+          font-size: 16px;
+          font-weight: 600;
+          color: #24221e;
+        }
+      }
+    }
+  }
+  
+  
+    .inner-frame {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      
+    }
+    
+    .first-frame,
+    .second-frame {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      margin-top: 30px;
+  
+    }
+    
+    .first-frame {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 0 20px; // Adjust padding as needed
+    }
+    
+    .left-text {
+      font-family: 'Inter', sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      text-align: left;
+      width: 50%;
+    }
+    
+    .right-text {
+      font-family: 'Inter', sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      text-align: right;
+      width: 50%;
+    }
+  
+    
+    .text-frame {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 10px; // Spacing between SVG and text
+      background-color: rgba(128, 128, 128, 0.219);
+      border-radius: 5px;
+      height:142px;
+      justify-content: center;
+    }
+    .third-frame{
+      display: flex;
+      flex-direction: column;
+      // justify-content: center;
+      align-items: center;
+    }
+    
+    .from-text {
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      text-align: left;
+      color: #871E35;
+  
+  
+    }
+    
+    .name-text {
+      //styleName: Paragraph/SemiBold;
+      font-family: Inter;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 30px;
+      text-align: left;
+      
+    }
+    
+    .account-text {
+      //styleName: Body/1 Regular;
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      
+    }
+    
+    .svg-separator {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 20px 20px; // Space around the SVG separator
+    }
+  .frame{
+    width: 560.75px;
+    position: relative;
+  }
+  .svg{
+    // width: 32px;
+    // height: 32px;
+    position: absolute;
+    top: 6px;
+    left: 8px;
+  
+    
+  }
+  .svglayout{
+    position: relative;
+    position: absolute;
+    top: 50px;
+    left: 130px;
+    width: 48px;
+    height: 48px;
+    // border: 1px solid;
+    border-radius: 50%;
+    background: rgba(128, 128, 128, 0.54);
+  }
