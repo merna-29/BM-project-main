@@ -1,0 +1,26 @@
+.custom-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 16px;
+    background: #FFFFFF;
+    border-radius: 8px;
+  }
+  
+  .custom-button {
+    height: 56px; /* Button height */
+    padding: 16px 32px;
+    border-radius: 6.5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #871E35; /* Default border color */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #a22c48; /* Hover effect background color */
+    }
+  }
+  

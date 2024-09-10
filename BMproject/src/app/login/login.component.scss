@@ -1,0 +1,35 @@
+/* Container for the login component */
+.login-container {
+    background-color: #5f1525;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: 0 auto; /* Center the component horizontally */
+}
+
+/* Styling for the login text inside the component */
+.login-text {
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    color: #ffffff; /* White text color */
+    margin: 0;
+
+
+
+
+    /* Responsive text adjustments */
+    @media (max-width: 1024px) {
+        font-size: 48px; /* Adjust font size for tablets */
+        line-height: 72px;
+    }
+
+    @media (max-width: 768px) {
+        font-size: 36px; /* Adjust font size for small screens */
+        line-height: 54px;
+    }
+
+    @media (max-width: 480px) {
+        font-size: 24px; /* Adjust font size for mobile screens */
+        line-height: 36px;
+    }
+}

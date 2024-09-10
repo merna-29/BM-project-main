@@ -1,0 +1,120 @@
+/* Main Container */
+.main-container {
+  // width: 1440px;
+  // height: 1624px;
+  max-height:1624px ;
+  top: 1582px;
+  left: 1468px;
+  gap: 0px;
+  opacity: 0px;  
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Pushes footer to the bottom */
+  padding: 0 20px; /* Adds padding for smaller screens */
+  
+}
+
+/* Upper Part */
+.upper-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  padding: 0 60px; /* Adjust padding as needed */
+}
+
+.header-text {
+  width: 257px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: center;
+  color: #24221E;
+}
+
+/* Second Frame (Top Right) */
+.second-frame {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second-frame svg {
+  width: 24px;
+  height: 24px;
+  stroke: #24221E;
+}
+
+/* Footer */
+.footer {
+  height: 56px;
+  padding: 16px 8px;
+  background: #F3E9EB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  // margin-top: 100vh; /* Automatically pushes footer to the bottom */
+}
+
+.footer-text {
+  width: 331px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #24221E;
+  text-align: center;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  /* Adjust styles for tablets and smaller screens */
+  .upper-part {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align elements */
+    padding: 0 20px; /* Reduced padding for smaller screens */
+  }
+
+  .header-text {
+    font-size: 24px; /* Smaller font size */
+    line-height: 32px;
+    width: auto; /* Adjusts width for smaller screens */
+  }
+
+  .second-frame {
+    margin-top: 10px; /* Adds spacing between elements */
+  }
+
+  .footer {
+    padding: 12px 8px; /* Reduces padding */
+  }
+
+  .footer-text {
+    font-size: 14px; /* Smaller font size */
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Adjust styles for mobile devices */
+  .header-text {
+    font-size: 20px; /* Smaller font size for mobile */
+    line-height: 28px;
+  }
+
+  .footer {
+    padding: 10px 8px; /* Further reduce padding */
+  }
+
+  .footer-text {
+    font-size: 12px; /* Smaller font size for mobile */
+    line-height: 18px;
+  }
+}

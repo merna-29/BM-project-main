@@ -1,0 +1,151 @@
+// .main-container {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     gap: 20px; // Adjust the gap as needed
+//     width: 589.64px;
+//   }
+
+  .amount-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // width: 100%; // Set the width as specified
+    width: 589.64px;
+    height: 56px;    // Set the height as specified
+    gap: 0px;
+    opacity: 1;     // Set opacity to 1 for visibility
+    border-bottom: 1px solid#E3E2E2;
+    // margin-left: 25%;
+
+  }
+  .amount-container ul {
+    display: flex;
+    justify-content: space-between;
+    // align-content: center;
+    // margin: 0 30px 0 30px;
+  }
+  
+  .amount-list {
+    display: flex;
+    // flex-direction: row;
+    // justify-content: flex-start;
+    // align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  // .amount-item {
+  //   display: flex;
+  //   align-items: flex-start;
+  //   justify-content: space-between;
+  //   width: 50%;    // Adjust width as needed
+  //   height: 100%;
+  // }
+  
+  .amount-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 56px; // Align text vertically
+    text-align: center;
+    color: #565552;
+
+
+  }
+  .inner-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .first-frame,
+  .second-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .first-frame {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px; // Adjust padding as needed
+  }
+  
+  .left-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    width: 50%;
+  }
+  
+  .right-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: right;
+    width: 50%;
+  }
+
+  
+  .text-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px; // Spacing between SVG and text
+  }
+  .third-frame{
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+  }
+  
+  .from-text {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #871E35;
+
+
+  }
+  
+  .name-text {
+    //styleName: Paragraph/SemiBold;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    
+  }
+  
+  .account-text {
+    //styleName: Body/1 Regular;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    
+  }
+  
+  .svg-separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px; // Space around the SVG separator
+  }
+  

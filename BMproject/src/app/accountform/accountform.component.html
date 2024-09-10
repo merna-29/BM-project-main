@@ -1,0 +1,116 @@
+<!-- Parent Container to Center Frame Container -->
+<div class="parent-container">
+    <div class="frame-container">
+      <!-- Frame: Title and Description -->
+      <div class="frame">
+        <div class="title-container">
+          <span class="title-text">{{ titleText }}</span>
+        </div>
+        <div class="description-container">
+          <span class="description-text">{{ descriptionText }}</span>
+        </div>
+      </div>
+  
+      <!-- Form Frame: Email, Password Fields, Dropdown, and More Fields -->
+      <div class="form-frame">
+        <!-- Email Field -->
+        <div class="input-container">
+          <span class="input-label">{{ emailLabel }}</span>
+          <app-shared-input
+            type="text"
+            placeholder="Full name"
+            width="501px"
+            backgroundColor="#871E35">
+          </app-shared-input>
+        </div>
+  
+        <!-- Password Field -->
+        <div class="input-container">
+          <span class="input-label">{{ passwordLabel }}</span>
+          <app-shared-input
+            type="email"
+            placeholder="Email address"
+            width="501px"
+            backgroundColor="#871E35">
+          </app-shared-input>
+        </div>
+  
+        <!-- Dropdown Field -->
+        <div class="input-container">
+          <span class="input-label">Country</span>
+          <select class="dropdown-field">
+            <option value="Option1">Option 1</option>
+            <option value="Option2">Option 2</option>
+            <option value="Option3">Option 3</option>
+          </select>
+        </div>
+  
+        <!-- Three Input Text Fields Side by Side -->
+        <div class="three-inputs-row">
+          <div class="input-container">
+            <span class="input-label">DD</span>
+            <app-shared-input
+              type="text"
+              placeholder="DD"
+              width="150px"
+              backgroundColor="#F3E9EB">
+            </app-shared-input>
+          </div>
+          <div class="input-container">
+            <span class="input-label">Month</span>
+            <app-shared-input
+              type="text"
+              placeholder="Month"
+              width="150px"
+              backgroundColor="#F3E9EB">
+            </app-shared-input>
+          </div>
+          <div class="input-container">
+            <span class="input-label">Year</span>
+            <app-shared-input
+              type="text"
+              placeholder="YYYY"
+              width="150px"
+              backgroundColor="#F3E9EB">
+            </app-shared-input>
+          </div>
+        </div>
+  
+        <!-- Two More Input Text Fields -->
+        <div class="input-container">
+          <span class="input-label">Password</span>
+          <app-shared-input
+            type="text"
+            placeholder="************"
+            width="501px"
+            backgroundColor="#871E35">
+          </app-shared-input>
+        </div>
+        <div class="input-container">
+          <span class="input-label">Confirm password</span>
+          <app-shared-input
+            type="text"
+            placeholder="************"
+            width="501px"
+            backgroundColor="#871E35">
+          </app-shared-input>
+        </div>
+        The password should be at least eight characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like ! " ? $ % ^ & )
+  
+        <!-- Login Button -->
+        <app-custom-button
+          text="Create Account"
+          width="501px"
+          backgroundColor="#871E35">
+        </app-custom-button>
+  
+        <!-- Text for "Don't have an account?" and "Create Account" -->
+        <div class="account-info">
+          <span class="account-text">{{ accountText }}</span>
+          <span class="create-account">{{ createAccountText }}</span>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  

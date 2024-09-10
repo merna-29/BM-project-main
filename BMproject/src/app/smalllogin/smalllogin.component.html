@@ -1,0 +1,52 @@
+<!-- Parent Container to Center Frame Container -->
+<div class="parent-container">
+  <div class="frame-container">
+    <!-- Frame: Title and Description -->
+    <div class="frame">
+      <div class="title-container">
+        <span class="title-text">{{ titleText }}</span>
+      </div>
+      <div class="description-container">
+        <span class="description-text">{{ descriptionText }}</span>
+      </div>
+    </div>
+
+    <!-- Form Frame: Email and Password Fields -->
+    <div class="form-frame">
+      <!-- Email Field -->
+      <div class="input-container">
+        <span class="input-label">{{ emailLabel }}</span>
+        <app-shared-input
+          type="email"
+          placeholder="Enter your email"
+          width="501px"
+          backgroundColor="#871E35">
+        </app-shared-input>
+      </div>
+
+      <!-- Password Field -->
+      <div class="input-container">
+        <span class="input-label">{{ passwordLabel }}</span>
+        <app-shared-input
+          type="password"
+          placeholder=""
+          width="501px"
+          backgroundColor="#871E35">
+        </app-shared-input>
+      </div>
+
+      <!-- Login Button -->
+      <app-custom-button
+        text="Login"
+        width="501px"
+        backgroundColor="#871E35">
+      </app-custom-button>
+
+      <!-- Text for "Don't have an account?" and "Create Account" -->
+      <div class="account-info">
+        <span class="account-text">{{ accountText }}</span>
+        <span class="create-account">{{ createAccountText }}</span>
+      </div>
+    </div>
+  </div>
+</div>
