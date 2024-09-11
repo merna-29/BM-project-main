@@ -1,0 +1,72 @@
+/* Big frame */
+.big-frame {
+    // width: 1243px;
+    // height: 718px; /* Set the height as fixed at 718px */
+    // margin-top: 562px; /* Equivalent to top: 562px */
+    // margin-left: 96px; /* Equivalent to left: 96px */
+    // margin-left: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 32px;
+    border: 1px solid #E3E2E2; /* Border with transparent color to avoid visibility */
+    opacity: 1; /* Set to 1 to make the frame visible */
+    // align-items: center;
+    // display: flex;
+    // justify-content: center;
+  }
+
+  .inner-frame {
+    width: 293px; 
+    height: 718px; 
+    gap: 0px;
+    border: 1px solid #E3E2E2; 
+    opacity: 1; 
+    background-color: #FFFFFF; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  /* Each of the four frames inside the inner frame */
+  .inner-frame-item {
+    // width: 293px; 
+    height: 56px; 
+    // padding: 16px 0px 0px 0px; /* Padding top only */
+    padding-left: 16px;
+    gap: 10px;
+    border-bottom: 1px solid #E3E2E2; /* Only bottom border */
+
+    opacity: 1; /* Visible */
+    display: flex;
+    align-items: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+
+  }
+  
+  
+  .profile-item {
+    background-color: #E3E2E2;
+    color:#871E35 ;
+  }
+  
+  
+  .payments-item {
+    color: #4B4A47;
+  }
+  
+  
+  .settings-item {
+   
+    color: #4B4A47;
+    
+  }
+  
+  
+  .password-item {
+    color: #4B4A47;
+  }
+  

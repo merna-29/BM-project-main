@@ -9,34 +9,52 @@
   </div>
 
   <!-- New Container Starts Here -->
-   <form action="">
-  <div class="small-container">
-    <div class="frame current-balance-frame">
-      <p class="current-balance-text">Current Balance</p>
-      <h2 class="balance-amount">10000 EGP</h2>
+   <div class="form">
+<!-- Parent Container to Center Frame Container -->
+<div class="parent-container">
+  <div class="frame-container">
+    <!-- Frame: Title and Description -->
+    <div class="frame">
+      <div class="title-container">
+        <span class="title-text">{{ titleText }}</span>
+      </div>
+   
     </div>
 
-    <div class="frame send-amount-frame">
-      <p class="send-amount-text">Send Amount</p>
-      <input type="number" class="input-amount" placeholder="10000" />
+    <!-- Form Frame: Email and Password Fields -->
+    <div class="form-frame">
+      <!-- Email Field -->
+      <div class="input-container">
+        <span class="input-label">{{ emailLabel }}</span>
+        <app-shared-input
+          type="email"
+          placeholder="1000"
+          width="501px"
+          backgroundColor="#871E35">
+        </app-shared-input>
+      </div>
+
+      <div class="description-container">
+        <span class="description-text">{{ descriptionText }}</span>
+      </div>
+
+ 
+
+      <!-- Login Button -->
+      <app-custom-button
+        text="Continue"
+        width="470px"
+        backgroundColor="#871E35">
+      </app-custom-button>
+
+      <!-- Text for "Don't have an account?" and "Create Account" -->
+      <div class="account-info">
+        <span class="account-text">{{ accountText }}</span>
+        <span class="create-account">{{ createAccountText }}</span>
+      </div>
     </div>
-
-    <div class="frame delivery-time-frame">
-      <p class="delivery-time-text">Delivery Time: By May 20th</p>
-    </div>
-
-    <app-custom-button 
-  text="Continue"
-  width="417px"
-  backgroundColor="#871E35">
-</app-custom-button>
-
-    <p class="terms-text">
-      By Clicking Continue, I’m agree with 
-      <span class="terms-policy">Terms & Policy</span>
-    </p>
-    
   </div>
-  </form>
+</div>
+</div>
   
 </div>

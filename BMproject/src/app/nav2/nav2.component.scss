@@ -1,0 +1,115 @@
+.navbar-container {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 20px 0px #6C76861A;
+    padding: 0 70px;
+    display: flex;
+    justify-content: center;
+    min-height: 95.23px;
+  
+    .navbar-inner-container {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .navbar-left {
+      display: flex;
+      align-items: center;
+  
+      .navbar-link {
+        text-decoration: none;
+  
+        .navbar-text {
+          font-family: 'Inter', sans-serif;
+          font-size: 32px;
+          font-weight: 600;
+          line-height: 48px;
+          color: #24221E;
+        }
+      }
+    }
+  
+    .navbar-right {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+  
+      .navbar-links {
+        list-style: none;
+        display: flex;
+        margin: 0;
+  
+        .navbar-item {
+          padding: 0 16px;
+  
+          .navbar-item-link {
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            color: #3C3A37;
+            text-decoration: none;
+          }
+        }
+      }
+  
+ // .container {
+//     width: 241px;
+//     height: 48px;
+//     // display: flex;
+//     gap: 14px;
+//     // opacity: 0;
+//   }
+// .inner-frame{
+// display: flex;
+// justify-content: flex-end;
+// gap: 20px;
+// }
+.inner-frame {
+    // width: 241px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+    // opacity: 0;
+  }
+
+
+.icon-text {
+    width: 36.12px;
+    height: 28.8px;
+    // margin-top: 1.6px;
+    // margin-left: 5.94px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    // line-height: 36px;
+    text-align: center;
+    color: #3C3A37;
+  }
+.text {
+    width: 153px;
+    height: 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    color: #3C3A37;
+    // opacity: 0;
+  }
+  .icon {
+    width: 24px;
+    height: 24px;
+    gap: 0;
+    // opacity: 0;
+    // transform: rotate(0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    }
+  }
+  

@@ -2,11 +2,11 @@
 .main-container {
   // width: 1440px;
   // height: 1624px;
-  max-height:1624px ;
-  top: 1582px;
-  left: 1468px;
-  gap: 0px;
-  opacity: 0px;  
+  // min-height:1600024px ;
+  // top: 1582px;
+  // left: 1468px;
+  // gap: 0px;
+  // opacity: 0px;  
   background: #FFFFFF;
   display: flex;
   flex-direction: column;
@@ -52,26 +52,64 @@
 
 /* Footer */
 .footer {
-  height: 56px;
-  padding: 16px 8px;
-  background: #F3E9EB;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  // margin-top: 100vh; /* Automatically pushes footer to the bottom */
-}
-
-.footer-text {
-  width: 331px;
-  height: 24px;
-  font-family: 'Inter', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
+  background-color:#F3E9EB;
   color: #24221E;
+  padding: 20px;
   text-align: center;
+  font-family: 'Inter', sans-serif;
 }
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a{
+  color: #ffffff;
+}
+
+/* Speedo Transfer Section */
+.speedo-transfer-container {
+  width: 273px;
+  height: 71.23px;
+  padding: 0 16px 0 0;
+  opacity: 0;
+  text-align: center;
+
+  .speedo-transfer-text {
+    width: 257px;
+    height: 48px;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    opacity: 0;
+    text-align: center;
+  }
+}
+
+/* Description Section */
+.description-container {
+  width: 600px;
+  height: 29.9px;
+  padding: 0 0 0.9px 0;
+  opacity: 0;
+  text-align: center;
+
+  p {
+    width: 600px;
+    height: 29px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    opacity: 0;
+    text-align: center;
+    margin: 0;
+  }
+}
+
+
 
 /* Responsive Styles */
 @media screen and (max-width: 768px) {

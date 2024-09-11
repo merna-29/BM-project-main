@@ -1,7 +1,7 @@
 /* Container for the background with image */
 .background-container {
   position: relative;
-  width: 92.5%;  
+  // width: 100%;  
   height: 800px;
   background-image: url('https://www.viseo.com/sites/default/files/styles/banner_1366_x_766/public/2018-09/A-PROPOS-VISEO_OK_1.jpeg?itok=a1vKlnXX');
   background-size: cover;
@@ -100,7 +100,7 @@
   height: 460px;
   padding: 32px 0px;
   gap: 32px;
-  border-radius: 8px 0px 0px 0px;
+  border-radius: 8px;
   background-color: #FFFFFF; 
   display: flex;
   flex-direction: column;
@@ -182,27 +182,15 @@
   color: Gray/G100; /* Change text color to white */
 }
 
+.background-container{
+  display: flex;
+  justify-content: space-around;
+}
+.form{
+  z-index: 231;
+}
 
-// /* Button: Continue */
-// .continue-button {
-//   width: 417px;
-//   height: 56px;
-//   padding: 16px 32px;
-//   background-color: #871E35;
-//   border: 1px solid #871E35;
-//   border-radius: 6.5px 0px 0px 0px;
-//   font-family: 'Inter', sans-serif;
-//   font-size: 16px;
-//   font-weight: 500;
-//   line-height: 24px;
-//   color: #FFFFFF;
-//   text-align: center;
-//   cursor: pointer;
-// }
 
-// .continue-button:hover {
-//   background-color: darken(#871E35, 10%);
-// }
 
 .terms-text {
   width: 390px;
@@ -218,6 +206,163 @@
 .terms-policy {
   color: #871E35; /* Color for Terms & Policy text */
   cursor: pointer; /* Optional: Adds a pointer cursor on hover */
+}
+
+
+
+
+
+/* Parent Container */
+.parent-container {
+  min-height: 100vh; /* Ensure it fills at least the height of the viewport */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  padding: 0 20px; /* Optional: Add padding for smaller screens */
+}
+
+/* Main Frame Container */
+.frame-container {
+  width: 565px;
+  padding: 64px 32px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px 0px #6c76861a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+/* Frame: Title and Description */
+.frame {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.title-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+  color: #24221e;
+}
+
+.description-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #565552;
+}
+
+/* Form Frame: Email and Password Fields */
+.form-frame {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* Input Container for Email and Password Fields */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #3c3a37;
+}
+
+/* Input Field Styling */
+.input-field {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Login Button Styling */
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #871e35;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #a22c48;
+  }
+}
+
+/* Account Info Styling */
+.account-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.account-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #565552;
+  text-align: center;
+}
+
+.create-account {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #871e35;
+  cursor: pointer;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .frame-container {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+
+  .title-text {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .description-text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .description-text {
+    font-size: 14px;
+    line-height: 22px;
+  }
 }
 
 
@@ -283,3 +428,11 @@
     width: 150px;
   }
 }
+
+
+
+
+
+
+
+

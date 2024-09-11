@@ -1,0 +1,63 @@
+<div class="background-container">
+    <div class="content-frame">
+      <p class="simple-text">Simple. Quick. Secure.</p>
+      <h1 class="main-heading">Send Money Anywhere, Instantly</h1>
+      <p class="description">
+        Fast, secure, and affordable international money transfers. Get started in minutes.
+      </p>
+      <button class="cta-button">Transfer Now</button>
+    </div>
+  
+    <!-- New Container Starts Here -->
+    <div class="form">
+      <!-- Parent Container to Center Frame Container -->
+      <div class="parent-container">
+        <div class="frame-container">
+          <!-- Frame: Title and Description -->
+          <div class="frame">
+            <div class="title-container">
+                       <!-- Balance Display -->
+            <div class="current-balance-frame">
+              <span class="current-balance-text">Current Balance</span>
+              <span class="balance-amount">10000EGP</span> <!-- Updated balance amount -->
+            </div>
+            </div>
+          </div>
+  
+          <!-- Form Frame: Email and Password Fields -->
+          <div class="form-frame">
+            <!-- Email Field -->
+            <div class="input-container">
+              <span class="input-label">Email</span>
+              <app-shared-input
+                type="email"
+                placeholder="Enter your email"
+                width="501px"
+                backgroundColor="#871E35">
+              </app-shared-input>
+            </div>
+  
+  
+            <div class="description-container">
+              <span class="description-text">{{ descriptionText }}</span>
+            </div>
+      
+      
+  
+            <!-- Login Button -->
+            <app-custom-button
+              text="Continue"
+              width="470px"
+              backgroundColor="#871E35">
+            </app-custom-button>
+  
+            <!-- Text for "Don't have an account?" and "Create Account" -->
+            <div class="account-info">
+              <span class="account-text">By Clicking Continue, I’m agree with </span>
+              <span class="create-account">Terms & Policy</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

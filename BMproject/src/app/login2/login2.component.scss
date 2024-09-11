@@ -1,0 +1,65 @@
+/* Outer container to center the component */
+.center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // height: 100vh; /* Full height of the viewport */
+    margin-bottom: 30px;
+  }
+  
+  /* Main container */
+  .container {
+    width: 600px;
+    height: 150px;
+    background-color: #E3E2E2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Inner frame containing icons and text */
+  .inner-frame {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 545.1px; /* Hug width */
+    height: 90px; /* Hug height */
+    gap: 17px;
+  }
+  
+  /* Icon frame styling */
+  .icon-frame {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: black;
+  }
+  
+  .icon-frame2 {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Text content styling */
+  .text-content {
+    width: 415.09px;
+    height: 90px;
+    color: #565552;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

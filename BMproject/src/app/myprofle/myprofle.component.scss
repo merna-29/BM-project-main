@@ -1,8 +1,11 @@
 .profile-container {
-    width: 462px;
-    padding: 32px 0 0;
+    // width: 462px;
+    padding: 32px;
+    padding-right: 65px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    // background-color: red;
     gap: 32px;
   }
   
@@ -17,6 +20,8 @@
     color: #24221E;
     // color: white;
   }
+  
+
   
   .balance-frame {
     width: 462px;

@@ -1,127 +1,125 @@
 .footer {
-    background: #521220;
-    color: #fff;
-    height: 419px;
-    // padding: 50px 2%; /* Adjusted for responsiveness */
-    box-sizing: border-box; /* Ensures padding is included in element's width */
-    // display: flex;
-    // justify-content: center;
-  }
-  
-  .footer-container {
-    max-width: 1440px;
-    margin: 0 auto;
-    width: 100%; /* Ensure it does not exceed viewport width */
-  }
-  
-  .frame {
-    display: flex;
-    flex-direction: column;
-    // gap: 16px;
-  }
-  
-  .footer-content {
-    display: flex;
-    flex-direction: column;
-    // gap: 24px; /* Adjust spacing as needed */
-  }
-  
-  .footer-header h2 {
-    font-family: Inter;
+  background-color:#521220;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a{
+  color: #ffffff;
+}
+
+/* Speedo Transfer Section */
+.speedo-transfer-container {
+  width: 273px;
+  height: 71.23px;
+  padding: 0 16px 0 0;
+  opacity: 0;
+  text-align: center;
+
+  .speedo-transfer-text {
+    width: 257px;
+    height: 48px;
+    font-family: 'Inter';
     font-size: 32px;
     font-weight: 600;
     line-height: 48px;
+    opacity: 0;
     text-align: center;
-    color: #fff;
-    padding: 0 16px;
   }
-  
-  .footer-paragraph p {
-    font-family: Roboto;
+}
+
+/* Description Section */
+.description-container {
+  width: 600px;
+  height: 29.9px;
+  padding: 0 0 0.9px 0;
+  opacity: 0;
+  text-align: center;
+
+  p {
+    width: 600px;
+    height: 29px;
+    font-family: 'Roboto';
     font-size: 16px;
     font-weight: 400;
     line-height: 28.8px;
+    opacity: 0;
     text-align: center;
-    padding: 0 12px;
+    margin: 0;
   }
-  
-  .contact-info {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    align-items: center;
-    margin-bottom: 30px;
-  }
-  
-  .contact-info h3 {
-    font-family: Roboto;
+}
+
+/* Contact Info Section */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+
+  h3 {
+    width: 111px;
+    height: 24px;
+    font-family: 'Roboto';
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
-    color: #fff;
-    // margin-bottom: 10px; /* Reduced for better spacing */
+    text-align: left;
+    margin: 0;
   }
-  
-  .contact-details {
+
+  .contact-detail {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .email-container,
+  .phone-container {
+    display: flex;
     gap: 8px;
   }
-  
-  .contact-item {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-family: Roboto;
+
+  .email-label,
+  .phone-label {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  .email-text,
+  .phone-text {
+    font-family: 'Roboto';
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    color: #fff; /* Ensure text color is white */
+    text-align: left;
   }
-  
-  .contact-item a {
-    color: #fff;
-    // text-decoration: none; /* Optional: remove underline from links */
-  }
-  
-  .footer-bottom {
-    border-top: 1px solid #CDD6E04D;
-    display: flex;
-    justify-content: center; /* Center the text */
-    height: Hug (56px)px;
-    padding: 16px 0px 16px 0px;
-    // align-items: center; /* Center the text vertically */
-    // width: Fill (1,248px)px;
-  }
-  
-  .footer-bottom p {
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: center;
-    // padding: 0 12px;
-  }
-  
-  @media (max-width: 768px) {
-    .footer {
-      padding: 50px 4%; /* Adjust padding for smaller screens */
-    }
-  
-    .footer-header h2 {
-      font-size: 28px; /* Adjust font size for smaller screens */
-    }
-  
-    .footer-paragraph p {
-      font-size: 14px; /* Adjust font size for smaller screens */
-    }
-  
-    .contact-info h3 {
-      font-size: 18px; /* Adjust font size for smaller screens */
-    }
-  
-    .contact-item {
-      font-size: 14px; /* Adjust font size for smaller screens */
-    }
-  }
+}
+
+/* Divider */
+.footer-divider {
+  width: 100%;
+  border-top: 1px solid #CDD6E04D;
+  margin: 20px 0;
+}
+
+/* Copyright Section */
+.copyright {
+  width: 365px;
+  height: 24px;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin: 0;
+}
