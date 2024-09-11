@@ -1,0 +1,123 @@
+.profile-container {
+    // width: 462px;
+    padding: 32px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .profile-title {
+    width: 117px;
+    height: 66px;
+    font-family: 'Inter', sans-serif;
+    display: contents;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: #24221E;
+    // color: white;
+  }
+  
+//   .balance-frame {
+//     width: 462px;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     gap: 8px;
+//   }
+  
+  
+    // .balance-frame {
+    //   width: 100%;
+    //   height: 100px;
+    //   background-color: #ffffff;
+    //   border: 1px solid #e0e0e0;
+    //   border-radius: 8px;
+    //   margin-bottom: 20px;
+    // }
+
+    .frame-1{
+        background-color: #F3E9EB;
+        margin: 15px 0 0 0;
+    }
+  
+    .frame-1, .frame-2, .frame-3 {
+      width: 100%;
+      max-width: 600px;
+    //   background-color: #ffffff;
+    //   border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 16px;
+    //   margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      .text {
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #24221E;
+      }
+  
+      .icon-container {
+        svg {
+          width: 20px;
+          height: 20px;
+          fill: #898886;
+        }
+      }
+  
+      &.frame-2, &.frame-3 {
+        .inner-frame {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          width: 100%;
+  
+          .details, .price-info {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            // margin-bottom: 10px;
+            gap: 20px;
+  
+            .text1, .text2 {
+              font-family: 'Inter', sans-serif;
+              text-align: center;
+            }
+  
+            .text1 {
+              font-size: 18px;
+              font-weight: 600;
+              color: #24221E;
+            }
+  
+            .text2 {
+              font-size: 14px;
+              font-weight: 400;
+              color: #898886;
+            }
+  
+            .price-info {
+              .price-text1 {
+                font-size: 16px;
+                font-weight: 600;
+                color: #24221E;
+              }
+  
+              .price-text2 {
+                font-size: 14px;
+                font-weight: 400;
+                color: #898886;
+              }
+            }
+          }
+        }
+      }
+    }
+  
+  
