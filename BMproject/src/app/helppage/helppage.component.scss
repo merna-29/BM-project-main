@@ -1,0 +1,159 @@
+
+
+.container{
+
+//display: flex;
+width: 97.5%;
+margin-top: 5%;
+margin-bottom: 5%;
+
+}
+
+.contact-frame {
+    width: 100%;
+    height: auto;
+    margin-top: 50px; 
+    padding: 0px 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px; 
+    opacity: 1;
+  }
+  
+  /* Center the text */
+  .need-help-heading, .help-paragraph {
+    text-align: center; 
+    width: 100%; 
+  }
+  
+  /* Additional styles for heading */
+  .need-help-heading {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #24221E;
+    margin-top: 20px; /* Adjust margin if needed */
+  }
+  
+  /* Additional styles for paragraph */
+  .help-paragraph {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #3C3A37;
+    margin-top: 10px; /* Adjust spacing between the heading and paragraph */
+  }
+  
+  /* Centering the entire section using flexbox */
+  .center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  /* Individual frame for Send Email and Call Us with rectangles */
+  .email-frame, .call-frame {
+    width: 180px;
+    height: 208.79px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    opacity: 1;
+    box-shadow: 0px 6px 30px 0px rgba(108, 118, 134, 0.1); /* Shadow effect */
+    padding: 16px;
+  }
+  
+  /* Text inside Send Email and Call Us */
+  .frame-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    color: #24221E;
+  }
+  
+  /* Icon group and background */
+  .icon-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  /* Rectangle with icon inside */
+  .icon-background {
+    width: 82.5px;
+    height: 82.5px;
+    background-color: #F3E9EB;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  /* Icon itself */
+  .email-icon, .call-icon {
+    width: 36px;
+    height: 36px;
+  }
+  
+  
+  /* Icon Group for Call Frame */
+  .icon-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Icon Background for Call Frame */
+  .icon-background {
+    background-color: #F3E9EB;
+    border-radius: 9px;
+    width: 82.5px;
+    height: 82.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  /* Call Icon */
+  .call-icon {
+    width: 36px;
+    height: 36px;
+  }
+  
+  /* Frame Text - "Call Us" */
+  .frame-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    color: #24221E;
+    margin-bottom: 6px;
+  }
+  
+  /* Number Text */
+  .number {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #871E35;
+    margin-top: 0;
+  }
+  
