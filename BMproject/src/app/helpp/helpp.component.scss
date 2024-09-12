@@ -1,0 +1,208 @@
+.container {
+    // width: 1440px;
+    height: 404px;
+    background-color: #f3e9e9;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    color: #3c3a37;
+    // opacity: 0;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    // padding: 0 96px;
+  }
+  
+  .text-group {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .heading {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    text-align: left;
+    margin: 0;
+  }
+  
+  .list {
+    display: flex;
+    gap: 16px;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    position: relative;
+  }
+  
+  .list-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    
+  }
+  
+  .dot {
+
+    width:5px;
+    height: 5px;
+    // border: 3px solid gre;
+    border-radius: 50%;
+    // background-color: red;
+  }
+  
+  .dot-red {
+    background-color: #871e35;
+    position: absolute;
+    top: 10px;
+    left: 140px;
+  }
+  
+  .dot-grey {
+    background-color: #871e35;
+    position: absolute;
+    top: 10px;
+    right: 280px;
+  }
+  
+  .item,
+  .item-link {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  .item-link a {
+    text-decoration: none;
+    color:#871E35;
+  }
+  
+  
+  .group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .group img {
+    width: 100%;
+    height: auto;
+    max-width: 250px; /* Adjust based on your requirement */
+  }
+  
+  .background-image {
+    background-image: url('/BM-project-main/BMproject/src/app/myprofilee/WhatsApp Image 2024-09-11 at 10.54.25_91b9a467.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 404px;
+    opacity: 0.05;
+  }
+  
+  .background-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+// ////////////////
+
+  /* Big frame */
+.big-frame {
+    width: 1243px;
+    // height: 718px; /* Set the height as fixed at 718px */
+    // margin-top: 562px; /* Equivalent to top: 562px */
+    // margin-left: 96px; /* Equivalent to left: 96px */
+    // margin-left: 350px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 32px;
+    border: 1px solid #E3E2E2; /* Border with transparent color to avoid visibility */
+    opacity: 1; /* Set to 1 to make the frame visible */
+    // align-items: center;
+    // display: flex;
+    // justify-content: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+  }
+
+  .right{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    // background-color: #871e35;
+  }
+
+  .inner-frame {
+    width: 293px; 
+    height: 718px; 
+    gap: 0px;
+    border: 1px solid #E3E2E2; 
+    opacity: 1; 
+    background-color: #FFFFFF; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  /* Each of the four frames inside the inner frame */
+  .inner-frame-item {
+    // width: 293px; 
+    height: 56px; 
+    // padding: 16px 0px 0px 0px; /* Padding top only */
+    padding-left: 16px;
+    gap: 10px;
+    border-bottom: 1px solid #E3E2E2; /* Only bottom border */
+
+    opacity: 1; /* Visible */
+    display: flex;
+    align-items: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+
+  }
+  
+  
+  .profile-item {
+    background-color: #E3E2E2;
+    color:#871E35 ;
+  }
+  
+  
+  .payments-item {
+    color: #4B4A47;
+  }
+  
+  
+  .settings-item {
+   
+    color: #4B4A47;
+    
+  }
+  
+  
+  .password-item {
+    color: #4B4A47;
+  }

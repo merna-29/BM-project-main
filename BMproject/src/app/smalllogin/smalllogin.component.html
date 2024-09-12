@@ -29,7 +29,7 @@
         <span class="input-label">{{ passwordLabel }}</span>
         <app-shared-input
           type="password"
-          placeholder=""
+          placeholder="************"
           width="501px"
           backgroundColor="#871E35">
         </app-shared-input>
@@ -39,7 +39,8 @@
       <app-custom-button
         text="Login"
         width="501px"
-        backgroundColor="#871E35">
+        backgroundColor="#871E35"
+        (click)="onLoginButtonClick()">
       </app-custom-button>
 
       <!-- Text for "Don't have an account?" and "Create Account" -->

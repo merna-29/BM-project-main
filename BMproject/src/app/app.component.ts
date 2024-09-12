@@ -41,6 +41,10 @@ import { Account1Component } from './account1/account1.component';
 import { Account2Component } from './account2/account2.component';
 import { Account3Component } from './account3/account3.component';
 import { Account4Component } from './account4/account4.component';
+import { ErrorrComponent } from './errorr/errorr.component';
+import { ErrorpageComponent } from './errorpage/errorpage.component';
+import { HelppComponent } from './helpp/helpp.component';
+import { HelppageComponent } from './helppage/helppage.component';
 
 
 @Component({
@@ -51,7 +55,8 @@ import { Account4Component } from './account4/account4.component';
     ThirdpageloginComponent,AccountformComponent,TesttComponent,StepThreeMoneyComponent,StepOneMoneyComponent,CirclesComponent,
     MyprofleComponent,PaymentHistoryComponent,SettingsComponent,ChangePasswordComponent,HomeComponent,Home2Component,MoneytransferComponent,
     Home2Component,Home3Component,Forum2Component,Login1Component,Login2Component,Login3Component,MyprofileeComponent,Moneytransfer1Component,
-    Moneytransfer2Component,Moneytransfer3Component,SidebarComponent,Account1Component,Account2Component,Account3Component,Account4Component
+    Moneytransfer2Component,Moneytransfer3Component,SidebarComponent,Account1Component,Account2Component,Account3Component,Account4Component,
+    ErrorrComponent,ErrorpageComponent,HelppComponent,HelppageComponent,RouterOutlet
   ], 
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'

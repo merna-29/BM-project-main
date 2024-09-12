@@ -2,11 +2,12 @@ import { Component,Input } from '@angular/core';
 import { CustomButtonComponent } from '../shared/custom-button/custom-button.component';
 import { SharedInputComponent } from '../shared-input/shared-input.component';
 import { SmallloginComponent } from '../smalllogin/smalllogin.component';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-forum',
   standalone: true,
-  imports: [CustomButtonComponent,SharedInputComponent,CustomButtonComponent,SmallloginComponent],
+  imports: [CustomButtonComponent,SharedInputComponent,CustomButtonComponent,SmallloginComponent ,RouterLink],
   templateUrl: './forum.component.html',
   styleUrl: './forum.component.scss'
 })

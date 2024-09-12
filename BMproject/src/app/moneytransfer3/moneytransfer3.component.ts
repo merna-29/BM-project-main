@@ -5,11 +5,12 @@ import { TesttComponent } from '../testt/testt.component';
 import { ApplicationComponent } from '../application/application.component';
 import { FooterComponent } from '../footer/footer.component';
 import { ForumComponent } from '../forum/forum.component';
+import { StepThreeMoneyComponent } from '../step-three-money/step-three-money.component';
 
 @Component({
   selector: 'app-moneytransfer3',
   standalone: true,
-  imports: [CirclesComponent,Nav2Component,TesttComponent,ApplicationComponent,FooterComponent,ForumComponent],
+  imports: [CirclesComponent,Nav2Component,TesttComponent,ApplicationComponent,FooterComponent,ForumComponent,StepThreeMoneyComponent],
   templateUrl: './moneytransfer3.component.html',
   styleUrl: './moneytransfer3.component.scss'
 })

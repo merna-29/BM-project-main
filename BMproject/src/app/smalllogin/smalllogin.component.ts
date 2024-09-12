@@ -1,4 +1,4 @@
-  import { Component,Input } from '@angular/core';
+  import { Component,Input,Output,EventEmitter } from '@angular/core';
   import { CustomButtonComponent } from '../shared/custom-button/custom-button.component';
   import { SharedInputComponent } from '../shared-input/shared-input.component';
   
@@ -18,4 +18,11 @@ export class SmallloginComponent {
   @Input() passwordLabel: string = 'Password';
   @Input() accountText: string = "Don't have an account?";
   @Input() createAccountText: string = 'Create Account';
+
+  @Output() loginClicked = new EventEmitter<void>(); // EventEmitter for login button
+
+  // Method to emit event when login button is clicked
+  onLoginButtonClick() {
+    this.loginClicked.emit();
+  }
 }

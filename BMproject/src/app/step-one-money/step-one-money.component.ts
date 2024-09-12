@@ -1,11 +1,12 @@
 import { Component,Input } from '@angular/core';
 import { CustomButtonComponent } from '../shared/custom-button/custom-button.component';
 import { SharedInputComponent } from '../shared-input/shared-input.component';
+import { Router, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-step-one-money',
   standalone: true,
-  imports: [CustomButtonComponent,SharedInputComponent],
+  imports: [CustomButtonComponent,SharedInputComponent,RouterLink],
   templateUrl: './step-one-money.component.html',
   styleUrl: './step-one-money.component.scss'
 })
