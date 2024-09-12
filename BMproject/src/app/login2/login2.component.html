@@ -1,32 +1,30 @@
 <app-speedotransferlogin></app-speedotransferlogin>
-<div class="center-container">
-    <div class="container">
-      <div class="inner-frame">
-        <!-- First Icon -->
-        <div class="icon-frame">
-          <svg width="8" height="30" viewBox="0 0 8 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M7.66478 26.1304C7.66478 28.2383 5.97853 29.9667 3.82849 29.9667C1.67844 29.9667 -0.0078125 28.2383 -0.0078125 26.1304C-0.0078125 24.0226 1.67852 22.2942 3.82849 22.2942C5.97845 22.2942 7.66478 24.0226 7.66478 26.1304ZM5.58661 18.4579H2.03039C1.50328 18.4579 1.0693 18.0433 1.04521 17.5168L0.292326 1.06651C0.266623 0.504743 0.715179 0.0351562 1.27751 0.0351562H6.37705C6.94034 0.0351562 7.38914 0.506113 7.36215 1.06876L6.57163 17.5189C6.54641 18.0446 6.11284 18.4579 5.58661 18.4579Z" fill="white"/>
-          </svg>
-        </div>
-  
-        <!-- Text Content -->
-        <div class="text-content">
-          We logged you out because you were inactive for 1 minute -- it’s to help keep your account secure.
-        </div>
-  
-        <!-- Second Icon -->
-        <div class="icon-frame2">
-          <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M2.44141 22.4876L12.9274 12.0016L23.4134 22.4876M23.4134 1.51562L12.9254 12.0016L2.44141 1.51562" stroke="#24221E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </div>
+
+<!-- Center Container -->
+<div class="center-container" *ngIf="isCenterContainerVisible"> <!-- Use *ngIf to control visibility -->
+  <div class="container">
+    <div class="inner-frame">
+      <!-- First Icon -->
+      <div class="icon-frame">
+        <svg width="8" height="30" viewBox="0 0 8 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M7.66478 26.1304C7.66478 28.2383 5.97853 29.9667 3.82849 29.9667C1.67844 29.9667 -0.0078125 28.2383 -0.0078125 26.1304C-0.0078125 24.0226 1.67852 22.2942 3.82849 22.2942C5.97845 22.2942 7.66478 24.0226 7.66478 26.1304ZM5.58661 18.4579H2.03039C1.50328 18.4579 1.0693 18.0433 1.04521 17.5168L0.292326 1.06651C0.266623 0.504743 0.715179 0.0351562 1.27751 0.0351562H6.37705C6.94034 0.0351562 7.38914 0.506113 7.36215 1.06876L6.57163 17.5189C6.54641 18.0446 6.11284 18.4579 5.58661 18.4579Z" fill="white"/>
+        </svg>
+      </div>
+
+      <!-- Text Content -->
+      <div class="text-content">
+        We logged you out because you were inactive for 1 minute -- it’s to help keep your account secure.
+      </div>
+
+      <!-- Second Icon (clickable) -->
+      <div class="icon-frame2">
+        <svg (click)="hideCenterContainer()" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2.44141 22.4876L12.9274 12.0016L23.4134 22.4876M23.4134 1.51562L12.9254 12.0016L2.44141 1.51562" stroke="#24221E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
       </div>
     </div>
   </div>
-  
-  
+</div>
 
 <app-secondpagelogin></app-secondpagelogin>
-
 <app-footer2></app-footer2>
-

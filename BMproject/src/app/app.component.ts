@@ -45,6 +45,7 @@ import { ErrorrComponent } from './errorr/errorr.component';
 import { ErrorpageComponent } from './errorpage/errorpage.component';
 import { HelppComponent } from './helpp/helpp.component';
 import { HelppageComponent } from './helppage/helppage.component';
+import { FavlistComponent } from './favlist/favlist.component';
 
 
 @Component({
@@ -56,7 +57,7 @@ import { HelppageComponent } from './helppage/helppage.component';
     MyprofleComponent,PaymentHistoryComponent,SettingsComponent,ChangePasswordComponent,HomeComponent,Home2Component,MoneytransferComponent,
     Home2Component,Home3Component,Forum2Component,Login1Component,Login2Component,Login3Component,MyprofileeComponent,Moneytransfer1Component,
     Moneytransfer2Component,Moneytransfer3Component,SidebarComponent,Account1Component,Account2Component,Account3Component,Account4Component,
-    ErrorrComponent,ErrorpageComponent,HelppComponent,HelppageComponent,RouterOutlet
+    ErrorrComponent,ErrorpageComponent,HelppComponent,HelppageComponent,RouterOutlet,FavlistComponent
   ], 
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
